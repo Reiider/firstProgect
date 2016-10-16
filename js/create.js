@@ -3,6 +3,14 @@ function loadImageLink(){
 }
 
 function createNewDish(){
+	if(casheLinksOfElements["imageLink"].value === ""){
+		alert("Покажи мне, свой шедевр!");
+		return;
+	}
+	if(casheLinksOfElements[casheLinksOfElements["nameNewDish"].value] || casheLinksOfElements["nameNewDish"].value === ""){
+		alert("Такое блюдо уже есть.");
+		return;
+	}
 	var dish, tooltip, img, strMassImageForTooltip;
 	
 	var newDish = {};
@@ -54,5 +62,4 @@ function createNewDish(){
 	while(ingrForDish.length){
 		casheLinksOfElements["market"].appendChild(ingrForDish[0]);
 	}
-	upLoadJson();
 }
