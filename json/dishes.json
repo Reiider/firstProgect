@@ -1,0 +1,31 @@
+[
+	{
+		"myName": "Dressed Herring",
+		"fileName": "../images/DressedHerring.jpg",
+		"part" : [
+			"Fish", "Mayo", "Potato", "Beet", "Onion", "Egg"
+		]
+	},
+	{
+		"myName": "Omelet",
+		"fileName": "../images/Omelet.jpg",
+		"part" : [
+			"Egg", "Milk", "Sausage", "Tomato", "Green"
+		]
+	},
+	{
+		"myName": "Pancakes",
+		"fileName": "../images/Pancakes.jpg",
+		"part" : [
+			"Potato", "Sour cream", "Flour", "Oil"
+		]
+	},
+	{
+		"myName": "Mashed potatoes",
+		"fileName": "../images/Mashedpotatoes.jpg",
+		"part" : [
+			"Potato", "Milk", "Butter"
+		]
+	}
+	
+]

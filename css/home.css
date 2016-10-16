@@ -1,0 +1,150 @@
+body {
+	font-family: 'Buxton Sketch'; 
+}
+.ingredient img{
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+}
+.dishes img{
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+}
+.newParagraph{
+	font-size: 300%;
+	clear: both;
+	float: center;
+	margin-left: 35%;
+}
+.subparagraph{
+	text-align: center;
+	font-size: 26px;
+}
+
+#headWhat{
+	margin-left: 32%;
+	font-size: 300%;
+}
+#headWhat span{
+	font-size: 28px;
+}
+#store{ 
+    font-size: 300%;
+	clear: both;
+	float: center;
+	margin-left: 45%;
+}
+#market {
+    float: left;
+    width: 94%;
+	display: block;   
+	overflow: auto;
+    height: 200px;
+    margin-left: 3%;
+    margin-right: 3%;
+	margin-bottom: 20px;
+    border: 1px solid black;
+	background: url(../images/marketFone.jpg) repeat-x;
+}
+
+#fridge{
+	clear: both;
+    float: left;
+    width: 25%;
+    height: 400px;
+	overflow: auto;
+    margin: 11px;
+	margin-left:3%;
+    background: url(../images/fridge.jpg) no-repeat center;
+	background-size: cover;
+	border: 1px solid black;
+	
+}
+
+#dish{
+	text-align: center;
+	float: left;
+    width: 32%;
+    height: 210px;
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-right: 50px;
+    background: url(../images/dishFone.jpg) no-repeat center;
+	background-size: cover;
+	border: 1px solid black;
+}
+#dish span{
+	padding-top: 50px;
+}
+#listOfDish{
+    float: left;
+    width: 27%;
+    height: 300px;
+	overflow: auto;
+    margin-top: 50px;
+	margin-bottom: 0px;
+    border: 1px solid black;
+	background: url(../images/listOfDishesFone.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.tooltip {
+    border: 1px solid green;
+    background: white;
+    position: absolute;
+}
+.tooltip img {
+	width: 50px;
+	height: 50px;
+}
+.tooltip span {
+    margin-left: -999em;
+    position: absolute;
+}
+.tooltip:hover span {
+    border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    position: absolute; z-index: 99;
+    margin-left: 0; width: 100px;
+}
+.tooltip:hover img {
+    border: 0;
+    float: left; position: absolute;
+}
+#ingrCreate{
+	float:left;
+	margin-left:3%;
+	margin-right:3%;
+	width:50%;
+}
+#dishCreate{
+	float:left;
+
+	margin-right:3%;
+	width:24%;
+}
+#ingrForNew{
+	height:100px;
+	overflow: auto;
+	background: url(../images/marketFone.jpg) repeat-x;
+	border: 1px solid black;
+}
+#dishPhoto{
+	float:left;
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+	height:150px;
+	border: 1px solid black;
+	background: url(../images/startPhotoCreate.jpg) no-repeat center;
+	background-size: cover;
+}
+#buttonCreate {
+	margin-top:40px;
+	float:left;
+}
+#buttonCreate div{
+	margin-bottom:10px;
+}
